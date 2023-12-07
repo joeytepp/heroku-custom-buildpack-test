@@ -1,0 +1,5 @@
+#!/bin/sh
+echo '------> Initializing Apryse for PDF Generation'
+
+ruby bin/apryse_init.rb
+exit 0
