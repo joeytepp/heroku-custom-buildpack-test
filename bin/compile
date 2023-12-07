@@ -1,5 +1,8 @@
 #!/bin/sh
 echo '------> Initializing Apryse for PDF Generation'
 
-ls -R
+cmake
+mkdir -p /app/vendor/testing
+touch /app/vendor/testing/test
+ls /app -R
 exit 0
