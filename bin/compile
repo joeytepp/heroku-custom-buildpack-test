@@ -1,7 +1,7 @@
 #!/bin/sh
 echo '------> Initializing Apryse for PDF Generation'
 
-cd ${BUILD_DIR}
+cd $1
 
 ls -R
 
