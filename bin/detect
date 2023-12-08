@@ -1,4 +1,3 @@
 #!/bin/sh
 echo '------> Custom buildpack running'
-test -f bin/apryse_init.rb
 exit 0
